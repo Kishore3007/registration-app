@@ -1,4 +1,8 @@
 # Maven
+- task: DotNetCoreCLI@2
+  inputs:
+    azureSubscription: 'Free Trial(4095cf6b-6ee3-4e53-b711-12cc04ddc841)'
+    command: 'build'
 # Build your Java project and run tests with Apache Maven.
 # Add steps that analyze code, save build artifacts, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/java
